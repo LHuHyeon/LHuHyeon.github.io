@@ -3,7 +3,7 @@ title: Debug와 Release의 차이
 author: LHH
 date: 2023-02-23 11:20 GMT+0900
 categories: [C#, Server]
-tags: [Rookiss 강의, C#, Server]
+tags: [Rookiss 강의, C#, Debug, Release]
 ---
 
 ### Debug란?

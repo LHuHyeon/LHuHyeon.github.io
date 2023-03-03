@@ -1,5 +1,5 @@
 ---
-title: DeadLock
+title: C# DeadLock
 author: LHH
 date: 2023-02-24 20:50 GMT+0900
 categories: [C#, Server]
@@ -7,10 +7,13 @@ tags: [Rookiss 강의, C#, Server]
 ---
 
 ## lock 2개일 때 데드락 현상
-만약 A와 B라는 스레드와 lock_1과 lock_2가 존재할 때 <br>
-A는 lock_1 -> lock_2 순서로 Enter를 하고 <br>
-B는 lock_2 -> lock_1 순서로 Enter를 동시에 실행한다 가정하면 <br>
-A는 lock_2를 기다리고 B는 lock_1을 기다리는 데드락 현상이 생기게 된다. <br>
+만약 A와 B라는 스레드와 lock_1과 lock_2가 존재할 때
+
+A는 lock_1 -> lock_2 순서로 Enter를 하고
+
+B는 lock_2 -> lock_1 순서로 Enter를 동시에 실행한다 가정하면
+
+A는 lock_2를 기다리고 B는 lock_1을 기다리는 데드락 현상이 생기게 된다.
 
 ## 💻 코드
 ```cs
@@ -86,11 +89,17 @@ class Program
 - UserManager.Test() -> lock -> SessionManager.TestSession() -> lock;
 <br>
 
-하지만 데드락은 스레드끼리 시간만 어긋난다면 데드락현상은 일어나지 않는다. <br>
-이를 방지하기 위해 try, catch 등 여러 대응 방법이 있지만 데드락을 예상하여 계속 피하게 되면 코드는 더욱 어수선해질 뿐이다. <br>
+하지만 데드락은 스레드끼리 시간만 어긋난다면 데드락현상은 일어나지 않는다.
+
+이를 방지하기 위해 try, catch 등 여러 대응 방법이 있지만
+
+데드락을 예상하여 계속 피하게 되면 코드는 더욱 어수선해질 뿐이다.
 
 ## 결론
-데드락 현상은 까다롭기 때문에 사실상 완저히 막을 방법은 없다. 데드락이 일어날거 같아 계속 코드를 길게 대응하기보다
+데드락 현상은 까다롭기 때문에 사실상 완저히 막을 방법은 없다.
+
+데드락이 일어날거 같아 계속 코드를 길게 대응하기보다
+
 차라리 데드락이 일어나고 고치는게 더 쉬운 방법일 것이다.
 
 <br>

@@ -1,5 +1,5 @@
 ---
-title: Lock과 Monitor Class
+title: C# Lock과 Monitor Class
 author: LHH
 date: 2023-02-24 15:05 GMT+0900
 categories: [C#, Server]
@@ -7,13 +7,20 @@ tags: [Rookiss 강의, C#, Server]
 ---
 
 ## Monitor 클래스 
-기존 원자성을 보장하는 방법에서 Interlocked를 사용하였다. 하지만 이 것을 사용하기엔 +/- 밖에 사용을 못하는 단점이 있다. <br>
-Monitor 클래스의 사용법은 Monitor.Enter가 실행되면 다른 Monitor.Enter를 사용하는 스레드는 Exit가 실행될 때까지 기다리게 된다. <br> 
+기존 원자성을 보장하는 방법에서 Interlocked를 사용하였다.
+
+하지만 이 것을 사용하기엔 +/- 밖에 사용을 못하는 단점이 있다.
+
+Monitor 클래스의 사용법은 Monitor.Enter가 실행되면 다른 Monitor.Enter를 사용하는 스레드는 Exit가 실행될 때까지 기다리게 된다.
+
 이렇게 되면 Enter와 Exit 사이는 싱글 스레드가 보장되는 셈이다. 
 
 하지만 Monitor 클래스는 관리하기 어렵다는 단점이 있다.
 
-만약 Moniter.Enter를 실행하고 Exit하기 전에 return을 해버린다면 다른 Enter를 기다리는 스레드들은 무한 대기에 빠지는 `데드락(DeadLock)`에 걸리게 된다.
+만약 Moniter.Enter를 실행하고 Exit하기 전에 return을 해버린다면
+
+다른 Enter를 기다리는 스레드들은 무한 대기에 빠지는 `데드락(DeadLock)`에 걸리게 된다.
+
 이 때문에 Monitor 클래스를 사용하려면 코드를 더욱 신중하게 짜야한다.
 
 ```cs
@@ -42,7 +49,10 @@ finally // try가 끝나면 무조건 실행함.
 ```
 
 ## Lock이란?
-데드락을 피하며 Monitor 클래스를 쓰기엔  코드가 지저분해진다. 대부분 Monitor 클래스보다 Lock을 사용하며 데드락을 조금이라도 줄일 수 있는 방법이다.
+데드락을 피하며 Monitor 클래스를 쓰기엔  코드가 지저분해진다.
+
+대부분 Monitor 클래스보다 Lock을 사용하며 데드락을 조금이라도 줄일 수 있는 방법이다.
+
 Lock을 사용하는 비중은 60~70%가 된다.
 
 ```cs

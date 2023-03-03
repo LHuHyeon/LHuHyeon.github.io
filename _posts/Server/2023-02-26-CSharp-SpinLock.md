@@ -1,5 +1,5 @@
 ---
-title: SpinLock
+title: C# SpinLock
 author: LHH
 date: 2023-03-02 14:40 GMT+0900
 categories: [C#, Server]
@@ -7,7 +7,7 @@ tags: [Rookiss 강의, C#, Server]
 ---
 
 ## SpinLock이란?
-SpinLock은 만약 다른 스레드가 lock을 소유하고 있다면 그 lock이 반환될 때까지 계속 확인하며 기다리는 것이다.
+SpinLock은 만약 다른 스레드가 lock을 소유하고 있다면 그 lock이 반환될 때까지 계속 확인하며 기다린다.
 
 ## 💻 코드
 
@@ -103,7 +103,8 @@ public void Acquire()
     }
 }
 ```
-하지만 이렇게 구현을 한다면 두줄의 코드를 거쳐 실행되기 때문에 공동으로 사용되는 _locked가 다른 스레드에서 사용될 수도 있다. <br>
+하지만 이렇게 구현 한다면 두줄의 코드를 거쳐 실행되기 때문에 공동으로 사용되는 _locked가 다른 스레드에서 사용될 수도 있다.
+
 이 때문에 한줄로 구현해줄 필요가 있으며 구현 방법은 다음과 같다.
 
 <br>
@@ -119,7 +120,8 @@ public void Acquire()
     }
 }
 ```
-`Interlocked.Exchange(ref _locked, 1)`가 실행되면 _locked에 1을 넣게된다. <br>
+`Interlocked.Exchange(ref _locked, 1)`가 실행되면 _locked에 1을 넣게된다.
+
 `Interlocked.Exchange`의 반환값은 _locked에 1이 들어가기 전의 값을 반환해준다.
 
 ## Interlocked.CompareExchange
@@ -140,8 +142,10 @@ public void Acquire()
     }
 }
 ```
-`Interlocked.CompareExChange`는 `Interlocked.Exchange`와 비슷하지만 조금 더 정교하다.<br>
-사용법은 _locked의 이전값이 expected라면 _locked에 desired 값을 반환한다. <br>
+`Interlocked.CompareExChange`는 `Interlocked.Exchange`와 비슷하지만 조금 더 정교하다.
+
+사용법은 _locked의 이전값이 expected라면 _locked에 desired 값을 반환한다.
+
 리턴값은 Exchange와 똑같이 이전 값을 리턴한다.
 
 <br>
@@ -150,6 +154,7 @@ public void Acquire()
 1. Thread.Sleep(1); : 무조건 휴식 -> 무조건 1ms 정도 쉰다.
 2. Thread.Sleep(0); : 조건부 양보 -> 나보다 우선순위가 낮은 애들한테는 양보 불가 -> 우선순위가 나보다 같거나 높은 쓰레드가 없으면 본인이 선택됨.
 3. Thread.Yield(); : 관대한 양보 -> 관대하게 양보할테니, 지금 실행이 가능한 스레드가 있으면 실행 -> 실행 가능한 애가 없으면 남은 시간 소진.
+
 ```cs
 volatile bool _locked = false;
 
@@ -168,8 +173,9 @@ public void Acquire()
     }
 }
 ```
-기본적으로 OS 단에 요청하는 거의 모든 API (Console.Write, Sleep 등)은 CPU 사용권을 일단 반납하고 운영체제 쪽에서 다음 처리를 판별하게 되기 때문에
-[Context Switching](/_posts/2023-03-02-%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8-%EC%8A%A4%EC%9C%84%EC%B9%AD%EA%B3%BC-Event.md)이 일어난다.
+기본적으로 OS 단에 요청하는 거의 모든 API (Console.Write, Sleep 등)은
+
+CPU 사용권을 일단 반납하고 운영체제 쪽에서 다음 처리를 판별하게 되기 때문에 [Context Switching](/_posts/2023-03-02-%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8-%EC%8A%A4%EC%9C%84%EC%B9%AD%EA%B3%BC-Event.md)이 일어난다.
 
 <br>
 
