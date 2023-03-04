@@ -7,7 +7,6 @@ tags: [Rookiss 강의, C#, Server]
 ---
 
 ## ReaderWriterLock
----
 여러 스레드를 사용하다 보면 서로 공유되는 데이터가 존재한다. 
 
 스레드들의 각 상황마다 읽거나 쓰는 일이 발생되고, 
@@ -31,7 +30,6 @@ tags: [Rookiss 강의, C#, Server]
 계속 대기하는 `SpinLock` 상황보다 성능을 높일 수 있다.
 
 ## 💻 코드
----
 간단하게 보상을 받을 때와 보상이 추가될 때의 코드 상황이다.
 ```cs
 static ReaderWriterLockSlim _lock = new ReaderWriterLockSlim();

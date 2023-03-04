@@ -175,7 +175,7 @@ public void Acquire()
 ```
 기본적으로 OS 단에 요청하는 거의 모든 API (Console.Write, Sleep 등)은
 
-CPU 사용권을 일단 반납하고 운영체제 쪽에서 다음 처리를 판별하게 되기 때문에 [Context Switching](/_posts/2023-03-02-%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8-%EC%8A%A4%EC%9C%84%EC%B9%AD%EA%B3%BC-Event.md)이 일어난다.
+CPU 사용권을 일단 반납하고 운영체제 쪽에서 다음 처리를 판별하게 되기 때문에 [Context Switching](/posts/CSharp-컨텍스트-스위칭과-Event/)이 일어난다.
 
 <br>
 
