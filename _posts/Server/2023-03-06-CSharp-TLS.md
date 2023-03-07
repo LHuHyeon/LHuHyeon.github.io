@@ -100,6 +100,9 @@ static void Main(string[] args)
     ThreadPool.SetMinThreads(1, 1);
     ThreadPool.SetMaxThreads(3, 3);
     Parallel.Invoke(WhoAmI, WhoAmI, WhoAmI, WhoAmI, WhoAmI, WhoAmI, WhoAmI, WhoAmI, WhoAmI);
+
+    // threadName 값 초기화
+    threadName.Dispose();
 }
 ```
 

@@ -21,7 +21,7 @@ timezone: Asia/Seoul
 
 title: LHH Blog                          # the main title
 
-tagline: 게임 개발 취준생    # it will display as the sub-title
+tagline: 개발 공부 블로그    # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
@@ -81,7 +81,7 @@ theme_mode:   # [light|dark]
 img_cdn: 'https://chirpy-img.netlify.app'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/img/DDungE.jpg
+avatar: /assets/img/ddunge.jpg
 # avatar: '/commons/avatar.jpg'
 
 # boolean type, the global switch for ToC in posts.
