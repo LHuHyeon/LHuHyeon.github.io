@@ -58,5 +58,5 @@ static void AddReward()
 <br>
 
 ## 💡 참고
-- [Rookiss 강의: Part4 서버](https://www.inflearn.com/course/%EC%9C%A0%EB%8B%88%ED%8B%B0-mmorpg-%EA%B0%9C%EB%B0%9C-part4)
-- [Rito15: ReaderWriterLock](https://rito15.github.io/posts/06-cs-reader-writer-lock/)
+- [Rookiss 강의: Part4 서버](https://www.inflearn.com/course/%EC%9C%A0%EB%8B%88%ED%8B%B0-mmorpg-%EA%B0%9C%EB%B0%9C-part4){:target="_blank"}
+- [Rito15: ReaderWriterLock](https://rito15.github.io/posts/06-cs-reader-writer-lock/){:target="_blank"}
