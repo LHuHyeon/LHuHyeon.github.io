@@ -32,7 +32,7 @@ class Listener
 {
     Socket _listeneSocket;
 
-    public void Init(I)
+    public void Init()
     {
     }
 
@@ -219,7 +219,7 @@ static void Main(string[] args)
 }
 ```
 
-## 결과
+## 결론
 컴파일 결과는 달라진게 없지만 비동기식으로 코드를 구현했기 때문에
 
 이제 클라이언트를 대기하느라 못했던 작업을 진행할 수 있게됐다.
