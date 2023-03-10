@@ -6,7 +6,7 @@ categories: [C#, Server]
 tags: [Rookiss 강의, C#, Server, Socket, Listener]
 published: true
 ---
-
+<!-- 
 ## 동기/비동기화
 소켓을 사용할때 서버에서 Accept()를 사용하면 기본적으로 동기화가 되어 코드 블로킹이 진행되다.
 
@@ -334,4 +334,4 @@ class Program
 <br>
 
 ## 💡 참고
-- [Rookiss 강의: Part4 서버](https://www.inflearn.com/course/%EC%9C%A0%EB%8B%88%ED%8B%B0-mmorpg-%EA%B0%9C%EB%B0%9C-part4){:target="_blank"}
+- [Rookiss 강의: Part4 서버](https://www.inflearn.com/course/%EC%9C%A0%EB%8B%88%ED%8B%B0-mmorpg-%EA%B0%9C%EB%B0%9C-part4){:target="_blank"} -->
