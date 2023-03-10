@@ -12,7 +12,6 @@ baseurl: ''
 # otherwise, the layout language will use the default value of 'en'.
 lang: ko-KR
 
-
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Asia/Seoul
 
@@ -84,6 +83,9 @@ img_cdn: ''
 # the avatar on sidebar, support local or CORS resources
 avatar: /assets/img/ddunge.png
 # avatar: '/commons/avatar.jpg'
+
+# 깃 포스팅이 안되서 추가한 것..
+futrue: true
 
 # boolean type, the global switch for ToC in posts.
 toc: true
