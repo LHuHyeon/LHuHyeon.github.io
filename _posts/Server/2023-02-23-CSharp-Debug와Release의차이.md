@@ -81,5 +81,5 @@ Release : 코드 최적화로 인한 무한루프 <br>
 <br>
 
 ## 💡 참고
-- [Rookiss 강의: Part4 서버](https://www.inflearn.com/course/%EC%9C%A0%EB%8B%88%ED%8B%B0-mmorpg-%EA%B0%9C%EB%B0%9C-part4){:target="_blank"}
-- [lewns2 Blog](https://salon.tistory.com/19){:target="_blank"}
+- [Rookiss 강의: Part4 서버](https://www.inflearn.com/course/%EC%9C%A0%EB%8B%88%ED%8B%B0-mmorpg-%EA%B0%9C%EB%B0%9C-part4)
+- [lewns2 Blog](https://salon.tistory.com/19)

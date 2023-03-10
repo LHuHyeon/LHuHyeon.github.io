@@ -180,7 +180,7 @@ CPU 사용권을 일단 반납하고 운영체제 쪽에서 다음 처리를 판
 <br>
 
 ## 💡 참고
-- [Rookiss 강의: Part4 서버](https://www.inflearn.com/course/%EC%9C%A0%EB%8B%88%ED%8B%B0-mmorpg-%EA%B0%9C%EB%B0%9C-part4){:target="_blank"}
-- [Rookiss 문의 답변](https://www.inflearn.com/questions/36808/sleep%EA%B3%BC-context-switching%EC%97%90-%EB%8C%80%ED%95%B4){:target="_blank"}
-- [불곰: SpinLock](https://brownbears.tistory.com/45){:target="_blank"}
-- [rito15: SpinLock](https://rito15.github.io/posts/03-cs-spinlock/){:target="_blank"}
+- [Rookiss 강의: Part4 서버](https://www.inflearn.com/course/%EC%9C%A0%EB%8B%88%ED%8B%B0-mmorpg-%EA%B0%9C%EB%B0%9C-part4)
+- [Rookiss 문의 답변](https://www.inflearn.com/questions/36808/sleep%EA%B3%BC-context-switching%EC%97%90-%EB%8C%80%ED%95%B4)
+- [불곰: SpinLock](https://brownbears.tistory.com/45)
+- [rito15: SpinLock](https://rito15.github.io/posts/03-cs-spinlock/)
