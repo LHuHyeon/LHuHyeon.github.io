@@ -5,7 +5,7 @@ theme: jekyll-theme-chirpy
 
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
 # and doesn't have a custom domain.
-baseurl: ''
+baseurl: 'https://LHuHyeon.github.io'
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -31,8 +31,8 @@ url: 'https://LHuHyeon.github.io'
 github:
   username: LHuHyeon             # change to your github username
 
-twitter:
-  username: twitter_username            # change to your twitter username
+# twitter:
+#   username: twitter_username            # change to your twitter username
 
 social:
   # Change to your full name.
@@ -84,7 +84,7 @@ img_cdn: ''
 avatar: /assets/img/ddunge.png
 # avatar: '/commons/avatar.jpg'
 
-# 깃 포스팅이 안되서 추가한 것..
+# 깃이 안되서 혹시 모르니 추가한것..
 futrue: true
 
 # boolean type, the global switch for ToC in posts.
