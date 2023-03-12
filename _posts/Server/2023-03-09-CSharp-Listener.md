@@ -219,8 +219,8 @@ static void Main(string[] args)
     }
 }
 ```
+<br>
 
-## 결론
 컴파일 결과는 달라진게 없지만 비동기식으로 코드를 구현했기 때문에
 
 이제 클라이언트를 대기하느라 못했던 작업을 진행할 수 있게됐다.
@@ -333,4 +333,4 @@ class Program
 <br>
 
 ## 💡 참고
-- [Rookiss 강의: Part4 서버](https://www.inflearn.com/course/%EC%9C%A0%EB%8B%88%ED%8B%B0-mmorpg-%EA%B0%9C%EB%B0%9C-part4)
+- [Rookiss 강의: Part4 서버](https://www.inflearn.com/course/%EC%9C%A0%EB%8B%88%ED%8B%B0-mmorpg-%EA%B0%9C%EB%B0%9C-part4){:target="_blank"}

@@ -3,7 +3,7 @@ title: C# Session (Recv)
 author: LHH
 date: 2023-03-10 00:20 GMT+0900
 categories: [C#, Server]
-tags: [Rookiss 강의, C#, Server, Socket, Session, Recv]
+tags: [Rookiss 강의, C#, Server, Socket, Session]
 ---
 
 지난 글([Listener](/posts/CSharp-Listener))에서 Listener를 비동기식으로 실행되도록 구현하였다.
@@ -175,8 +175,8 @@ public void Disconnect()
     }
 }
 ```
+<br>
 
-## 결론
 `Listener`와 구현방식이 매우 비슷하기 때문에 이해하기에 있어서 어렵지 않았다.
 
 아직 어색한 코드들이 많지만 계속 이해해 보도록 노력해야겠다.
@@ -184,4 +184,4 @@ public void Disconnect()
 <br>
 
 ## 💡 참고
-- [Rookiss 강의: Part4 서버](https://www.inflearn.com/course/%EC%9C%A0%EB%8B%88%ED%8B%B0-mmorpg-%EA%B0%9C%EB%B0%9C-part4)
+- [Rookiss 강의: Part4 서버](https://www.inflearn.com/course/%EC%9C%A0%EB%8B%88%ED%8B%B0-mmorpg-%EA%B0%9C%EB%B0%9C-part4){:target="_blank"}
