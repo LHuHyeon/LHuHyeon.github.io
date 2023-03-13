@@ -1,12 +1,12 @@
 ---
-title: C# Session (Send)
+title: C# Session_#2
 author: LHH
 date: 2023-03-12 16:50 GMT+0900
-categories: [C#, Server]
+categories: [Study, C# Rookiss Part4 게임서버]
 tags: [Rookiss 강의, C#, Server, Socket, Session]
 ---
 
-지난 글([Session (Recv)](/posts/CSharp-Session-Recv))에 이어서 이번에는 Send를 비동기로 만들어준다.
+지난 글([Session #1](/posts/CSharp-Session-1))에 이어서 이번에는 Send를 비동기로 만들어준다.
 
 ## 💻 코드
 Send는 여러 클라이언트가 `_socket.SendAsync`를 접근했을 때 느리고 부하가생긴다.

@@ -1,8 +1,8 @@
 ---
-title: C# Session (Recv)
+title: C# Session_#1
 author: LHH
 date: 2023-03-10 00:20 GMT+0900
-categories: [C#, Server]
+categories: [Study, C# Rookiss Part4 게임서버]
 tags: [Rookiss 강의, C#, Server, Socket, Session]
 ---
 
