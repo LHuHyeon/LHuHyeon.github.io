@@ -77,7 +77,7 @@ void OnSendCompleted(object sender, SocketAsyncEventArgs args)
             try
             {
                 _sendArgs.BufferList = null;
-                _sendQueue.Clear();
+                _pendingList.Clear();
 
                 // ※ 추상메소드 이곳에 넣기 ※
                 OnSend(_sendArgs.BytesTransferred);
@@ -357,7 +357,7 @@ namespace ServerCore
                     try
                     {
                         _sendArgs.BufferList = null;
-                        _sendQueue.Clear();
+                        _pendingList.Clear();
 
                         OnSend(_sendArgs.BytesTransferred);
 

@@ -88,7 +88,7 @@ void OnSendCompleted(object sender, SocketAsyncEventArgs args)
             try
             {
                 _sendArgs.BufferList = null;
-                _sendQueue.Clear();
+                _pendingList.Clear();
 
                 Console.WriteLine($"Transferred Bytes : {_sendArgs.BytesTransferred}");
 
