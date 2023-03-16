@@ -3,7 +3,7 @@ title: C# Session_#4
 author: LHH
 date: 2023-03-13 15:25 GMT+0900
 categories: [Study, C# Rookiss Part4 게임서버]
-tags: [Rookiss 강의, C#, Server, Socket, Session]
+tags: [Rookiss 강의, C#, Server, Session]
 ---
 
 지난 글([Session #3](/posts/CSharp-Session-3))에 이어서 완성된 Session을 사용해 보도록 한다.

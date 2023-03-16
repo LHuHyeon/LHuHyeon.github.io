@@ -3,7 +3,7 @@ title: C# Connector
 author: LHH
 date: 2023-03-14 11:50 GMT+0900
 categories: [Study, C# Rookiss Part4 게임서버]
-tags: [Rookiss 강의, C#, Server, Socket, Connector]
+tags: [Rookiss 강의, C#, Server, Connect]
 ---
 
 당연한 소리지만 서버 통신에 있어서 서버만 구현하면 안되고, 클라이언트 부분에서도 서버로 연결요청을 해줘야한다.

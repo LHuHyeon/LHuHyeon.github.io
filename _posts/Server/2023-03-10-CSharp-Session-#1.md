@@ -3,7 +3,7 @@ title: C# Session_#1
 author: LHH
 date: 2023-03-10 00:20 GMT+0900
 categories: [Study, C# Rookiss Part4 게임서버]
-tags: [Rookiss 강의, C#, Server, Socket, Session]
+tags: [Rookiss 강의, C#, Server, Session, Recv]
 ---
 
 지난 글([Listener](/posts/CSharp-Listener))에서 Listener를 비동기식으로 실행되도록 구현하였다.

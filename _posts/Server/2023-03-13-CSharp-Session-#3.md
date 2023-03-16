@@ -3,7 +3,7 @@ title: C# Session_#3
 author: LHH
 date: 2023-03-13 14:00 GMT+0900
 categories: [Study, C# Rookiss Part4 게임서버]
-tags: [Rookiss 강의, C#, Server, Socket, Session]
+tags: [Rookiss 강의, C#, Server, Session, Send]
 ---
 
 지난 글([Session #2](/posts/CSharp-Session-2))에 이어서 이번에는 보낼 버퍼들을 등록할 때
