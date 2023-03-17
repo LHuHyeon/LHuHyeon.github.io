@@ -1,7 +1,7 @@
 ---
 title: C# SendBuffer
 author: LHH
-date: 2023-03-16 13:40 GMT+0900
+date: 2023-03-16 19:58 GMT+0900
 categories: [Study, C# Rookiss Part4 게임서버]
 tags: [Rookiss 강의, C#, Server, Send]
 ---
