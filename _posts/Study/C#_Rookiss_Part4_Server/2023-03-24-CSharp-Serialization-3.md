@@ -1,12 +1,12 @@
 ---
-title: C# Serialization_#3
+title: C# Serialization [3]
 author: LHH
 date: 2023-03-24 11:21 GMT+0900
 categories: [Study, C# Rookiss Part4 게임서버]
 tags: [Rookiss 강의, C#, Server, Serialization]
 ---
 
-지난 글([Serialization #2](/posts/CSharp-Serialization-2))에 이어서 코드 효율성과, 자동화를 계속 진행한다.
+지난 글([Serialization [2]](/posts/CSharp-Serialization-2))에 이어서 코드 효율성과, 자동화를 계속 진행한다.
 
 ## 💻 코드
 ### 하드코딩 가독성

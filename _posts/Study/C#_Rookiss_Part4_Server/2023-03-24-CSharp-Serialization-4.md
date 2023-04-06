@@ -1,12 +1,12 @@
 ---
-title: C# Serialization_#4
+title: C# Serialization [4]
 author: LHH
 date: 2023-03-24 17:32 GMT+0900
 categories: [Study, C# Rookiss Part4 게임서버]
 tags: [Rookiss 강의, C#, Server, Serialization]
 ---
 
-지난 글([Serialization #3](/posts/CSharp-Serialization-3))에 이어서 List를 관리하도록 구현한다.
+지난 글([Serialization [3]](/posts/CSharp-Serialization-3))에 이어서 List를 관리하도록 구현한다.
 
 ## 💻 코드
 ### Skill List

@@ -1,5 +1,5 @@
 ---
-title: C# Serialization_#2
+title: C# Serialization [2]
 author: LHH
 date: 2023-03-23 14:40 GMT+0900
 categories: [Study, C# Rookiss Part4 게임서버]
@@ -8,7 +8,7 @@ tags: [Rookiss 강의, C#, Server, Serialization]
 
 서버는 클라이언트로부터 패킷을 받으면 거짓말을 하고 있다 가정하며 코드를 구현해야 한다.
 
-지난 글([Serialization #1](/posts/CSharp-Serialization-1))에 이어서 자동화에 더 가깝게 수정하고, 패킷 사이즈를 검사할 것이다.
+지난 글([Serialization [1]](/posts/CSharp-Serialization-1))에 이어서 자동화에 더 가깝게 수정하고, 패킷 사이즈를 검사할 것이다.
 
 ## 💻 코드
 ### Packet
