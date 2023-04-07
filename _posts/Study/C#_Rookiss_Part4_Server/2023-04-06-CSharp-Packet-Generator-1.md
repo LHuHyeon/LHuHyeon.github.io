@@ -6,7 +6,7 @@ categories: [Study, C# Rookiss Part4 게임서버]
 tags: [Rookiss 강의, C#, Server, Packet]
 ---
 
-이번에는 패킷을 자동화하는 코드를 만들어본다.
+패킷을 자동화하는 코드를 만들어본다.
 
 ## 💻 코드
 ### 코드 삭제 
