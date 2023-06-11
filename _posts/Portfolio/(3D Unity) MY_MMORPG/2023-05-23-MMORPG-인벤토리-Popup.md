@@ -1,0 +1,28 @@
+---
+title: (3D MMORPG) 인벤토리 Popup
+author: LHH
+date: 2023-05-23 00:00 GMT+0900
+categories: [Portfolio, (3D Unity) MY_MMORPG]
+tags: [Unity, Portfolio]
+---
+
+> 구현 기간 : 05.22 ~ 05.23
+
+## 🎮 구현 기능
+인벤토리를 구현할 때 팝업창과 인벤안의 슬롯들을 나누어 구현했다.
+
+### 📝 UI_InvenPopup.cs
+인벤토리를 On/Off 하고 아이템 슬롯을 관리한다.
+
+![인벤토리](https://github.com/LHuHyeon/MY_MMORPG/assets/110723307/fe15fae6-4ab9-47b6-b0ef-113543c13e46)
+
+### 📝 UI_InvenItem.cs
+인벤토리 안에 있는 슬롯이고, 아이템을 관리한다.
+
+`EventSystem`을 사용하여 슬롯끼리 아이템 이동이 가능하다.
+
+### 📝 UI_DragSlot.cs
+슬롯끼리 간에 아이템이 이동될 때 이동되는 과정을 보여주기 위해 사용될 `Slot`이다.
+
+## 🎬 구현 영상
+![Inventory](https://github.com/LHuHyeon/MY_MMORPG/assets/110723307/a127de32-4430-4097-838d-ef3086d37fdf)

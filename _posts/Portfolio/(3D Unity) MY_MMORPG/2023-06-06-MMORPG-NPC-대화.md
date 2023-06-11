@@ -1,0 +1,27 @@
+---
+title: (3D MMORPG) NPC 대화 (퀘스트)
+author: LHH
+date: 2023-06-06 00:00 GMT+0900
+categories: [Portfolio, (3D Unity) MY_MMORPG]
+tags: [Unity, Portfolio]
+---
+
+> 구현 기간 : 06.05 ~ 06.06
+
+`NPC`에게 말을 걸어서 퀘스트를 받는 기능을 구현한다.
+
+## 🎮 구현 기능
+### 📝 QuestNpcController.cs
+플레이어와 가깝다면 `G`키를 눌러 상호작용할 수 있다.
+
+상호작용하면 플레이어의 움직임을 멈추고 `대화 Popup`을 활성화한다.
+
+`대화 NPC`가 기본적으로 가지고 있는 대화는 `일반, 퀘스트시작, 거절, 수락, 진행, 성공`이다.
+
+### 📝 UI_TalkPopup.cs
+`UI_TalkPopup`은 `NPC`로 부터 문자열을 받아 대화를 진행한다.
+
+퀘스트시작 문자열은 `List`로 받고 이야기가 끝나면 거절/수락을 선택할 수 있다.
+
+## 🎬 구현 영상
+![Talk](https://github.com/LHuHyeon/MY_MMORPG/assets/110723307/a52426bd-8910-4e41-9e6e-2e2040334795)
