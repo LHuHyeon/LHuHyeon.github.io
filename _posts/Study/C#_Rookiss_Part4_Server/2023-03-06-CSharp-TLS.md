@@ -1,5 +1,5 @@
 ---
-title: C# Thread Local Storage (TLS)
+title: (C#) Thread Local Storage (TLS)
 author: LHH
 date: 2023-03-06 00:10 GMT+0900
 categories: [Study, C# Rookiss Part4 게임서버]

@@ -1,5 +1,5 @@
 ---
-title: Unity Android Gradle Error
+title: (Unity) Android Gradle Error
 author: LHH
 date: 2023-03-26 21:40 GMT+0900
 categories: [Error, Unity (Error)]

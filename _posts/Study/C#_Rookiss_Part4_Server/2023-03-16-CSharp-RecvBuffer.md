@@ -1,5 +1,5 @@
 ---
-title: C# RecvBuffer
+title: (C#) RecvBuffer
 author: LHH
 date: 2023-03-16 13:40 GMT+0900
 categories: [Study, C# Rookiss Part4 게임서버]

@@ -1,5 +1,5 @@
 ---
-title: C# Connector
+title: (C#) Connector
 author: LHH
 date: 2023-03-14 11:50 GMT+0900
 categories: [Study, C# Rookiss Part4 게임서버]

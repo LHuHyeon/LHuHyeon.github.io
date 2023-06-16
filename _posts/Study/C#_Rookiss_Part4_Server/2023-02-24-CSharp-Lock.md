@@ -1,5 +1,5 @@
 ---
-title: C# Lock과 Monitor Class
+title: (C#) Lock과 Monitor Class
 author: LHH
 date: 2023-02-24 15:05 GMT+0900
 categories: [Study, C# Rookiss Part4 게임서버]

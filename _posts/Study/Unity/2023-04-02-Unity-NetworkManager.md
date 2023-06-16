@@ -1,5 +1,5 @@
 ---
-title: Unity NetworkManager
+title: (Unity) NetworkManager
 author: LHH
 date: 2023-04-02 13:20 GMT+0900
 categories: [Study, Unity]

@@ -1,5 +1,5 @@
 ---
-title: Unity CapsuleCollider Center 변경법
+title: (Unity) CapsuleCollider Center 변경법
 author: LHH
 date: 2023-06-05 16:00 GMT+0900
 categories: [Error, Unity (Error)]

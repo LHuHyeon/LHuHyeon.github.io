@@ -1,5 +1,5 @@
 ---
-title: C# Packet Generator [1]
+title: (C#) Packet Generator [1]
 author: LHH
 date: 2023-04-06 20:40 GMT+0900
 categories: [Study, C# Rookiss Part4 게임서버]

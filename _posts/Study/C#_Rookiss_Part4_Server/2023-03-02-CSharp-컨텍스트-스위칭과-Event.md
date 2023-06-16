@@ -1,5 +1,5 @@
 ---
-title: C# 컨텍스트 스위칭과 Event
+title: (C#) 컨텍스트 스위칭과 Event
 author: LHH
 date: 2023-03-02 15:30 GMT+0900
 categories: [Study, C# Rookiss Part4 게임서버]

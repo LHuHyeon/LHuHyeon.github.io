@@ -1,5 +1,5 @@
 ---
-title: C# ReaderWriterLock
+title: (C#) ReaderWriterLock
 author: LHH
 date: 2023-03-03 20:30 GMT+0900
 categories: [Study, C# Rookiss Part4 게임서버]

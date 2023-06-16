@@ -1,5 +1,5 @@
 ---
-title: Unity Login 문자열 검사
+title: (Unity) Login 문자열 검사
 author: LHH
 date: 2023-03-30 18:00 GMT+0900
 categories: [Study, Unity]

@@ -1,5 +1,5 @@
 ---
-title: C# PacketSession
+title: (C#) PacketSession
 author: LHH
 date: 2023-03-17 09:15 GMT+0900
 categories: [Study, C# Rookiss Part4 게임서버]

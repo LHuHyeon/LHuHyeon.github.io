@@ -1,5 +1,5 @@
 ---
-title: Unity InputField 입력 이벤트
+title: (Unity) InputField 입력 이벤트
 author: LHH
 date: 2023-03-29 13:15 GMT+0900
 categories: [Study, Unity]

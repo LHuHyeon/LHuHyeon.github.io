@@ -1,5 +1,5 @@
 ---
-title: C# DeadLock
+title: (C#) DeadLock
 author: LHH
 date: 2023-02-24 20:50 GMT+0900
 categories: [Study, C# Rookiss Part4 게임서버]

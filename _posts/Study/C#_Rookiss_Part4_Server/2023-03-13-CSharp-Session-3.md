@@ -1,5 +1,5 @@
 ---
-title: C# Session [3]
+title: (C#) Session [3]
 author: LHH
 date: 2023-03-13 14:00 GMT+0900
 categories: [Study, C# Rookiss Part4 게임서버]

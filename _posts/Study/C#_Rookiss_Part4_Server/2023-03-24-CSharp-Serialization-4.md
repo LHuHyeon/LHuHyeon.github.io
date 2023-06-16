@@ -1,5 +1,5 @@
 ---
-title: C# Serialization [4]
+title: (C#) Serialization [4]
 author: LHH
 date: 2023-03-24 17:32 GMT+0900
 categories: [Study, C# Rookiss Part4 게임서버]

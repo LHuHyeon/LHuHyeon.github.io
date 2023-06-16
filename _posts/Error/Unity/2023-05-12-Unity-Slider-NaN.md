@@ -1,5 +1,5 @@
 ---
-title: Unity Slider NaN
+title: (Unity) Slider NaN
 author: LHH
 date: 2023-05-12 17:14 GMT+0900
 categories: [Error, Unity (Error)]

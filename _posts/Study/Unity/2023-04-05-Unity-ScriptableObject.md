@@ -1,5 +1,5 @@
 ---
-title: Unity ScriptableObject
+title: (Unity) ScriptableObject
 author: LHH
 date: 2023-04-05 14:45 GMT+0900
 categories: [Study, Unity]

@@ -1,5 +1,5 @@
 ---
-title: C# Memory Barrier
+title: (C#) Memory Barrier
 author: LHH
 date: 2023-02-23 11:40 GMT+0900
 categories: [Study, C# Rookiss Part4 게임서버]
