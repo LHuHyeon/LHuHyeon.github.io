@@ -1,8 +1,8 @@
 ---
-title: (3D MMORPG) 아이템 DeepCopy (깊은 복사)
+title: (3D RPG) 아이템 DeepCopy (깊은 복사)
 author: LHH
 date: 2023-06-18 15:15 GMT+0900
-categories: [Portfolio, (3D Unity) MY_MMORPG]
+categories: [Portfolio, (3D Unity) MY_RPG]
 tags: [Unity, Portfolio]
 ---
 
