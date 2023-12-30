@@ -2,7 +2,7 @@
 title: (PlayFab) CloudScript에 Azure 연결하기
 author: LHH
 date: 2023-12-23 14:00 GMT+0900
-categories: [Study, etc]
+categories: [Study, PlayFab]
 tags: [PlayFab, BaaS, Azure]
 ---
 
