@@ -236,10 +236,10 @@ RPG 같은 게임에서 **마을 Scene -> 전장 Scene** 을 로드하려고 한
 <br>
 
 ## 💡 도움이 되는 유니티 가이드
-- [게임 개발을 최적화하는 9가지 방법(다운로드)](https://on.unity.com/3EkDewO)
+- [게임 개발을 최적화하는 9가지 방법(다운로드)](https://on.unity.com/3EkDewO){:target="_blank"}
 
-- [Optimize your game performance for Consoles and PC](https://on.unity.com/3YB3hrH)
+- [Optimize your game performance for Consoles and PC](https://on.unity.com/3YB3hrH){:target="_blank"}
 
-- [Ultimate guide to profiling Unity games](https://on.unity.com/3lMB1nq)
+- [Ultimate guide to profiling Unity games](https://on.unity.com/3lMB1nq){:target="_blank"}
 
-- [모바일 게임 성능 최적화 팁](https://on.unity.com/3XIs1wW)
+- [모바일 게임 성능 최적화 팁](https://on.unity.com/3XIs1wW){:target="_blank"}
